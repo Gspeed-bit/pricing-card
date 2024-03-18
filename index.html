@@ -1,128 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pricing Card</title>
   <script src="https://cdn.tailwindcss.com"></script>
+<title>Subscribe to MFM Westfalen Newsletter</title>
 </head>
+<body >
+  <div class=" flex items-center justify-center mx-auto h-screen bg-purple-700 ">
+  <div class=" flex flex-col md:flex-row md:max-w-4xl bg-purple-800 p-2 gap-2 md:gap-5 md: rounded-xl max-w-72">
 
-<body>
-  <!-- Container for the pricing cards -->
-  <div class="bg-slate-800 flex flex-col flex-wrap mx-auto justify-center items-center md:max-w-full md:h-screen md:flex-row">
-    
-    <!-- Pricing card Basic -->
-    <div class="m-4 rounded-xl min-w-[260px] border-[12px] border-slate-700 text-center">
-      <div>
-        <h2 class="text-lg text-white pt-6 pb-6 font-sans">BASIC</h2>
-        <h1 class="text-white text-5xl font-serif p-6 pb-3 ">100<span class="text-5xl">GB</span></h1>
-        <p class="text-md text-gray-300 font-sans">$1.99/Month</p>
-        <button class="text-md border border-violet-700 m-6 hover:bg-violet-700 rounded-lg shadow-lg py-3 px-10 text-white font-semibold font-sans mb-12">Purchase</button>
+      <img class=" rounded-xl h-45 md:h-60 md:w-object-fit md:rounded-r-none hover:md:rounded-r-xl trasform hover:scale-105 duration-700" src="./img.jpeg" alt=""/>
+
+      <div class="flex flex-col justify-center text-center p-4 md:text-left md:gap-2 ">
+      <h2 class="text-xl  font-serif text-white pb-4 " >Subscribe to Our Newsletter </h2>
+      <p class="text-xs tracking-wider leading-5 text-white  ">Stay connected with our church community by subscribing to our newsletter. Receive updates on upcoming events, sermons, and more!</p>
+      <div class="flex flex-col md:flex-row">
+          <input class="p-3 m-3 md:px-2 md:mx-0 placeholder-zinc-400 placeholder:md:text-start bg-purple-800 border-purple-500 placeholder:text-center placeholder:text-xs border focus:outline-none" type="email" id="email" name="email" placeholder="Enter your email address" required>
+          <button class="bg-pink-600 text-white text-xs p-3 m-3 md:px-5 rounded rounded-lg hover:bg-pink-400  hover:text-white duration-500 ">Subscribe</button>
+
       </div>
-      <!-- Features section -->
-      <div class="border-t w-full border-solid border-slate-700 pt-7 font-sans pb-7">
-        <!-- Feature 1 -->
-        <div class="text-white flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">100 GB of storage</p>
-        </div>
-        <!-- Feature 2 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">Option to add members</p>
-        </div>
-        <!-- Feature 3 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1 outline-none font-sans">Extra member benefits</p>
-        </div>
       </div>
+      </div>
+
     </div>
-    
-    <!-- Pricing card Standard -->
-    <div class="m-4 rounded-xl min-w-[260px] border-[12px] border-violet-600 text-center">
-      <div>
-        <h2 class="text-lg text-white pt-6 pb-6 uppercase font-sans">Standard</h2>
-        <h1 class="text-white text-5xl font-serif p-6 pb-3">200<span class="text-5xl">GB</span></h1>
-        <p class="text-md text-gray-300 font-sans">$3.99/Month</p>
-        <button class="text-md border bg-violet-700 border-violet-700 m-6 hover:bg-violet-900 rounded-lg shadow-lg py-3 px-10 text-white font-semibold font-sans mb-12">Purchase</button>
-      </div>
-      <!-- Features section -->
-      <div class="border-t w-full border-solid border-slate-700 pt-7 font-sans pb-7">
-        <!-- Feature 1 -->
-        <div class="text-white flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">200 GB of storage</p>
-        </div>
-        <!-- Feature 2 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">Option to add members</p>
-        </div>
-        <!-- Feature 3 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1 outline-none font-sans">Extra member benefits</p>
-        </div>
-      </div>
     </div>
-    
-    <!-- Pricing card Premium -->
-    <div class="m-4 rounded-xl min-w-[260px] border-[12px] border-slate-700 text-center">
-      <div>
-        <h2 class="text-lg text-white pt-6 pb-6 uppercase font-sans">Premium</h2>
-        <h1 class="text-white text-5xl font-serif p-6 pb-3">2 <span class="text-5xl">TB</span></h1>
-        <p class="text-md text-gray-300 font-sans">$8.99/Month</p>
-        <button class="text-md border border-violet-700 m-6 hover:bg-violet-700 rounded-lg shadow-lg py-3 px-10 text-white font-semibold font-sans mb-12">Purchase</button>
-      </div>
-      <!-- Features section -->
-      <div class="border-t w-full border-solid border-slate-700 pt-7 font-sans pb-7">
-        <!-- Feature 1 -->
-        <div class="text-white flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">2 TB of storage</p>
-        </div>
-        <!-- Feature 2 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1">Option to add members</p>
-        </div>
-        <!-- Feature 3 -->
-        <div class="text-white flex items-center justify-center pt-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M5 12l5 5l10 -10"></path>
-          </svg>
-          <p class="text-sm px-1 outline-none font-sans">Extra member benefits</p>
-        </div>
-      </div>
-    </div>
-  </div>
 </body>
-
 </html>
+
+
+
